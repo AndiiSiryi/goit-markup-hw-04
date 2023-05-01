@@ -323,7 +323,6 @@ body {
   display: flex;
   list-style-type: none;
 
-  justify-content: center;
   height: 40px;
   gap: 24px;
 }
@@ -355,7 +354,7 @@ body {
 }
 .customers-item {
   display: flex;
-  align-items: center;
+
   justify-content: center;
   width: 168px;
   height: 88px;
@@ -387,6 +386,11 @@ body {
   line-height: 1.5;
   width: 264px;
 }
+
+.footer-text.media {
+  font-weight: 500;
+}
+
 .logo-cloud {
   color: var(--text-footer-section-color);
 }
@@ -395,6 +399,28 @@ footer .logo.link {
   margin-bottom: 16px;
   margin-right: 0;
 }
+.footer .container {
+  display: flex;
+}
+.footer-media {
+  margin-left: 120px;
+}
+.footer-media .footer-text {
+  margin-bottom: 16px;
+  width: 208px;
+}
+.media-link:hover .icon.footer-hov,
+.media-link:focus .icon.footer-hov {
+  fill: #31d0aa;
+}
+.footer-media .media-list {
+  display: flex;
+  list-style-type: none;
+
+  height: 40px;
+  gap: 16px;
+}
+
 /* Стилі Portfolio */
 .section .work-button {
   color: var(--blue-text-color);
@@ -403,8 +429,8 @@ footer .logo.link {
   border-radius: 4px;
   cursor: pointer;
   padding: 12px 24px;
-  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12); */
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 
   font-family: inherit;
   font-weight: 500;
